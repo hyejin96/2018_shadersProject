@@ -11,11 +11,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
-		<style type="text/css">
-			body{
-	font-family: 'Nanum Gothic', sans-serif;
-}
-		</style>
 	</head>
 	<body class="is-preload">
 
@@ -23,49 +18,121 @@
 			<nav id="nav">
 				<ul class="container">
 					<li><a href="#top">Intro</a></li>
-					<li><a href="#work">Functions</a></li>
-					<li><a href="#contact">Demo</a></li>
-					<li><a href="#tool">Tools / Process</a></li>
+					<li><a href="#portfolio">Functions</a></li>
+					<li><a href="#Demo">Demo</a></li>
+					<li><a href="#Tools">Tools / Process</a></li>
 					<li><a href="#team">Team</a></li>
 				</ul>
 			</nav>
 
 		<!-- Home -->
-			<article id="top" class="wrapper style1" style="
-    background-color: #eff9ff;
-">
-				<img src = "images/intro.jpg">
-				<img src = "images/intro5.png">
-			</article>
-
-		<!-- Work -->
-			<article id="work" class="wrapper style2">
-				<img src = "images/function.jpg">
-				<img src = "images/function2.jpg">
-			</article>
-
-		<!-- Contact -->
-			<article id="contact" class="wrapper style4">
-				<div class="container medium">
-					<header style = "padding: 80px 0 0 0;">
-						<h2>demo</h2>
-						<p>Shaders works as follows</p>
-					</header>
+			<article id="top" class="wrapper style1">
+				<div class="container">
 					<div class="row">
-						<div class="youtubeWrap">
-						      <iframe width="1045" height="588" src="https://www.youtube.com/embed/uoXwXCOrTQk" frameborder="0" allowfullscreen></iframe>
-						    </div>
-					
+						<div class="col-6 col-6-large col-12-medium">
+							<span class="image fit"><img src="images/mainPhone.png" alt="" /></span>
+						</div>
+						<div class="col-6 col-6-large col-12-medium">
+							<header>
+								<h1><img class = "logoIcon" src="images/collaboration.png" alt="" /><strong class = "shadersText">Shaders</strong></h1>
+							</header>
+							<p>아직도 일정을 <strong class = "headerStrong">혼자</strong> 관리한다고?
+								<br>
+								다른 사람들과 아니!
+								<br>
+								<strong class = "headerStrong">Shaders</strong>와 함께 관리해봐!
+							</p>
+							
+						</div>
+					</div>
 				</div>
 			</article>
 
-			<!-- tool -->
-			<article id="tool" class="wrapper style4">
-				<img src = "images/skill.png">
+		<!-- Work -->
+			<article id="" class="wrapper style2">
+				<div class="container">
+					<div class="row">
+						<div class="col-6 col-6-large col-12-medium">
+							<span class="image fit"><img src="images/twoPhone.png" alt="" /></span>
+						</div>
+						<div class="col-6 col-6-large col-12-medium centers">
+							<p>많은 일정을 일일히 기록하시느라 힘드셨죠?
+								<br>
+								<br>
+								이제는 남과 <strong class = "headerStrong">공유하는</strong>시대
+								<br>
+								<br>
+								<strong class = "headerStrong2">공유하고자 하는 일정을 다른 사람과 공유하여 <br> 쉽게 관리해요!</strong>
+							</p>
+							
+						</div>
+					</div>
+				</div>
 			</article>
 
-<!-- Contact -->
-			<article id="team" class="wrapper style4">
+		<!-- Portfolio -->
+			<article id="portfolio" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Functions</h2>
+						<p>Shaders has this functions!</p>
+					</header>
+					<ul class="features">
+									<li>
+										<img src="images/function1.png" class="icon major style1">
+										<h4>공유 기능</h4>
+										<p class = "email">원하는 사람과 원하는 일정을 공유할 수 있습니다.</p>
+									</li>
+									<li>
+										<img src="images/function2.png" class="icon major style1">
+										<h4>날씨 정보</h4>
+										<p class = "email">원하는 날짜의 날씨를 알 수 있습니다.</p>
+									</li>
+									<li>
+										<img src="images/function3.png" class="icon major style1">
+										<h4>연락처 동기화</h4>
+										<p class = "email">본인의 핸드폰에 있는 연락처를 가지고<br> 앱과 동기화 할 수 있습니다.</p>
+										</p>
+									</li>
+									<li>
+										<img src="images/function4.png" class="icon major style1" >
+										<h4>상단바 알림</h4>
+										<p class = "email">오늘 있는 일정을 보여줍니다.</p>
+									</li>
+									<li>
+										<img src="images/function5.png" class="icon major style1">
+										<h4>친구 추가</h4>
+										<p class = "email">친구 목록에 없는 친구를 <br> 가입정보를 통해 추가 할 수 있습니다.</p>
+										</p>
+									</li>
+								</ul>
+			</article>
+
+		<!-- Contact -->
+
+			<article id="Demo" class="wrapper style3 youtube">
+				<div class="container democontainer">
+					<header>
+						<h2>Demo</h2>
+						<p>Shaders works as follows</p>
+					</header>
+					<video id="sampleMovie2" width="640" height="360" src="images/work2.mp4" controls=""></video>
+			</article>
+
+
+			<article id="Tools" class="wrapper style3">
+				<div class="container medium">
+					<header>
+						<h2>Tools / Process</h2>
+						<p>Shaders uses this tools and Process</p>
+					</header>
+					<div class="container">
+						<img class = "skillImg" src = "images/skill.png">
+  					</div>
+			</article>
+
+
+<article id="team" class="wrapper style5">
 				<div class="container medium">
 					<header style="padding: 80px 0 0 0;">
 						<h2>Our team</h2>
@@ -76,16 +143,19 @@
 									<li>
 										<img src="images/hj.png" class="icon major style1" style="height: 193.78px; width: 193.78px;">
 										<h4>엄혜진</h4>
+										<p class = "email">정보경영과</p>
 										<p class = "email">djagpwls10@naver.com</p>
 									</li>
 									<li>
 										<img src="images/hr.png" class="icon major style1" style="height: 193.78px; width: 193.78px;">
 										<h4>문혜리</h4>
+										<p class = "email">정보경영과</p>
 										<p class = "email">ree0310@naver.com</p>
 									</li>
 									<li>
 										<img src="images/gw.png" class="icon major style1" style="height: 193.78px; width: 193.78px;">
 										<h4>유지원</h4>
+										<p class = "email">컴퓨터정보과</p>
 										<p class = "email">wlddj0311@gmail.com</p>
 									</li>
 								</ul>
@@ -106,6 +176,35 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
 
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
 	</body>
 </html>
