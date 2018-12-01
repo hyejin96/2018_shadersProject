@@ -2458,6 +2458,7 @@ input, select, textarea {
 	.centers{
  	   margin: auto 0;
  	   font-size: 18pt;
+ 	   padding-top:0;
 	}
 
 	.style3{
@@ -2635,4 +2636,43 @@ input, select, textarea {
 video{
 	width: 100%;
     height: 420px;
+}
+.addJuje{
+	font-size: 14pt;
+	margin: 0;
+	color: #000;
+
+}
+
+.addJuje strong{
+	color: black;
+	font-size: 18pt;
+}
+
+.one{
+	color: orange;
+	font-weight: bold;
+	font-size: 16pt;
+}
+
+.two{
+	color: blue;
+	font-weight: bold;
+}
+
+.three{
+	color: green;
+	font-weight: bold;
+}
+
+.four{
+	color: purple;
+	font-weight: bold;
+	font-size: 16pt;
+}
+
+.major.style7{
+	font-size: 100px;
+    margin-bottom: 0px;
+	color: #8ECCF3;
 }
